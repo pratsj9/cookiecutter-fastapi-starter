@@ -42,13 +42,13 @@ class CORSConfig(BaseModel):
 class APIServerConfig(BaseSettings):
     """API Server configuration settings."""
 
-    host: StrictStr = "localhost"
+    host: StrictStr = "{{cookiecutter.host}}"
     """Host"""
 
-    port: StrictInt = 1506
+    port: StrictInt = {{cookiecutter.port}}
     """Port"""
 
-    enable_openapi: StrictBool = True
+    enable_openapi: StrictBool = {{cookiecutter.enable_openapi}}
     """This is a boolean flag to enable or disable the OpenAPI documentation"""
 
     cors: CORSConfig = CORSConfig()
