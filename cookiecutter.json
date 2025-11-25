@@ -7,5 +7,6 @@
   "python_version": "3.13",
   "host": "127.0.0.1",
   "port": 1506,
-  "enable_openapi": true
+  "enable_openapi": true,
+  "license": ["MIT", "Apache 2.0" , "Not Open Source"]
 }
