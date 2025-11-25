@@ -47,7 +47,7 @@ Copyright 2026 {{ cookiecutter.author_name }}
 **Copyright (C) 2026 {{ cookiecutter.author_name }}**
 **All Rights Reserved.**
 
-This software, including all source code, object code, documentation, and related data (the "Software"), is the proprietary and confidential information of **{{ cookiecutter.full_name }}**.
+This software, including all source code, object code, documentation, and related data (the "Software"), is the proprietary and confidential information of **{{ cookiecutter.author_name }}**.
 
 **1. Ownership and Rights:**
 The copyright in the Software is owned by **{{ cookiecutter.author_name }}**. The Software is protected by copyright laws and international treaty provisions.
