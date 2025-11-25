@@ -1,6 +1,6 @@
 {# LICENSE #}
 {% if cookiecutter.license == "MIT" -%}
-MIT License
+### MIT License
 
 Copyright (c) 2026 [{{ cookiecutter.author_name }}]
 
@@ -23,6 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 {% elif cookiecutter.license == "Apache 2.0" -%}
+### Apache 2.0 License
 
 Copyright 2026 {{ cookiecutter.author_name }}
 
