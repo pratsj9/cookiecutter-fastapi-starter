@@ -2,6 +2,11 @@
 
 {{cookiecutter.description}}
 
+
+## License
+This project is licensed under the **{{ cookiecutter.license }} License**.
+See the [LICENSE](LICENSE.md) file for details.
+
 ## Requirements
 - Python {{cookiecutter.python_version}}+
 - uv (recommended) or pip
